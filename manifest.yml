@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Sedona
+  host: Sedona
+  disk_quota: 1024M
+  services:
+  - Sedona-cloudantNoSQLDB
